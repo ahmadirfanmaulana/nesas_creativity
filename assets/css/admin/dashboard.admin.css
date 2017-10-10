@@ -1,0 +1,84 @@
+.item-icon{
+  background:rgba(0, 0, 0, 0.12);
+}
+.item-row{
+  margin: 0px;
+}
+.card.card-cus{
+  padding: 0px;
+}
+.card.card-cus a{
+  color: #fff;
+}
+.bg-red{
+  background: #F44336;
+  color: #fff;
+  transition: background 0.5s;
+}
+.bg-red:hover > .bg-red .item-icon{
+  background:rgba(0, 0, 0, 0);
+}
+.bg-purple{
+  background: #9C27B0;
+  color: #fff;
+  transition: background 0.5s;
+}
+.bg-purple:hover{
+  background: purple;
+}
+.bg-teal{
+  background: #009688;
+  color: #fff;
+  transition: background 0.5s;
+}
+.bg-teal:hover{
+  background: teal;
+}
+.bg-indigo{
+  background: #3F51B5;
+  color: #fff;
+  transition: background 0.5s;
+}
+.bg-indigo:hover{
+  background: indigo;
+}
+.bg-cyan{
+  background: #00BCD4;
+  color: #fff;
+  transition: background 0.5s;
+}
+.bg-cyan:hover{
+  background: cyan;
+}
+.bg-green{
+  background: #4CAF50;
+  color: #fff;
+  transition: background 0.5s;
+}
+.bg-light-green{
+  background: #8BC34A;
+  color: #fff;
+  transition: background 0.5s;
+}
+.bg-green:hover{
+  background: green
+}
+.bg-grey{
+  background: #2196F3;
+  color: #fff;
+}
+.bg-deep-purple{
+  background: #673AB7;
+  color: #fff;
+}
+.card .col-md-8 h1{
+  margin-top: 0px;
+  font-size: 40px;
+}
+.card .col-md-8 p{
+  margin-top: 15px;
+  font-size: 24px;
+}
+.row .item-icon h1{
+  font-size: 70px;
+}

@@ -1,0 +1,77 @@
+.well{
+  background: transparent;
+  border: 0px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0px 0px 0px red;
+  border-radius: 0px;
+}
+.jumbotron{
+  margin-bottom: 0px;
+}
+.share .btn-facebook{
+  background: #2b5998;
+  color: #fff;
+}
+.share .btn-twitter{
+  background: #55acee;
+  color: #fff;
+}
+.share .btn-instagram{
+  background: #8a3ab9;
+  color: #fff;
+}
+.share .btn-google-plus{
+  background: #DB4437;
+  color: #fff;
+}
+.share .btn{
+  width: 100%;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  font-family: "montserrat";
+  margin-top: 18px;
+}
+.share{
+  background: #f2f2f2;
+  padding: 25px 1%;
+}
+img.image-heading{
+  width: 100%;
+}
+table tr td{
+  padding: 0px 10px;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{
+  border-color: transparent;
+}
+.description p{
+  text-align: justify;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  line-height: 23px;
+}
+.btn-primary{
+  width: 100%
+}
+.item{
+  padding: 0px 8px;
+  margin-top: 20px;
+}
+.item.item-lg .wrapper,.item.item-sm .wrapper{
+  background: #fff;
+  height: 350px;
+  box-shadow: 0px 0px 5px #dbdbdb;
+}
+.image{
+  height: 200px;
+  background-size: 100%;
+  background-position: center;
+  transition: background-size 0.5s;
+  background-repeat: no-repeat;
+}
+.image:hover{
+  background-size: 120%;
+}
+.description{
+  padding: 10px 0px;
+}

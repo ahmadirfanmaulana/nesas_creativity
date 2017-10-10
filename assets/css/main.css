@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "raleway";
+  src: url('../font/raleway/Raleway-Regular.ttf');
+}
+@font-face {
+  font-family: "montserrat";
+  src: url('../font/montserrat/Montserrat-Regular.otf');
+}
+.font-heading{
+  font-family: "montserrat";
+}
+
+*{
+  font-family: "raleway";
+}
+body{
+  background: #fafafa;
+  overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "montserrat";
+}
+a:hover{
+  text-decoration: none;
+}
+.btn-primary{
+  background: #29bdbc;
+  border-color: #25b3b2;
+}
+.btn-primary:hover{
+  transition: background 0.5s, border-color 1s;
+}
+.navbar{
+  background: #fff;
+  border-radius: 0px;
+}
+.navbar ul.navbar-nav.nav li a,.navbar .navbar-header .navbar-brand{
+  color: #29bdbc;
+  font-family: "montserrat";
+  border-bottom: 5px solid transparent;
+  border-top: 5px solid transparent;
+  transition: border-bottom 0.3s,color 0.4s;
+  -webkit-transition: border-bottom 0.3s,color 0.4s;
+  -moz-transition: border-bottom 0.3s,color 0.4s;
+
+}
+.navbar ul.navbar-nav.nav li a{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+}
+.navbar ul.navbar-nav.nav li a:hover{
+  border-bottom: 5px solid transparent;
+  color: #337ab7;
+}
+
+div.jumbotron.first-jumbotron{
+  margin-top: 60px;
+  background: url('../img/joshua-earle-234343.jpg');
+  border-radius: 2px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+div.jumbotron.first-jumbotron h1,div.jumbotron.first-jumbotron p{
+  margin: 0px;
+  color: #fff;
+}
+.navbar-left{
+  padding-top: 5px;
+}
+
+.btn-o{
+  background: transparent;
+  border-color: #eee;
+  color: #fff;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+.btn-o:hover{
+  background-color: #fafafa;
+}
+section.section-wrapper{
+  min-height: 670px;
+  margin-top: 60px;
+}
+footer.footer{
+  padding: 25px 0px 40px 0px;
+  background: #fff;
+  border-top: 1px solid #eee;
+  margin-top: 30px;
+}
+.jumbotron{
+  background-image: url('../img/hexagon.png');
+  background-color: #29bdbc;
+  color: #fff;
+  font-family: "montserrat";
+  border-bottom: 1px solid #dbdbdb;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.nav.nav-tabs li a{
+  padding: 20px 40px;
+  border-bottom: 5px solid transparent;
+  color: #29bdbc;
+  font-family: "montserrat";
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.nav.nav-tabs li.active a{
+  border-bottom: 5px solid #29bdbc;
+  color: #555;
+}
+.nav.nav-pills li a{
+  color: #29bdbc;
+  font-family: "montserrat";
+  border-radius: 2px;
+}
+.nav.nav-pills li.active a{
+  color: #fafafa;
+  background: #29bdbc;
+  font-family: "montserrat";
+}
+.container .row{ 
+}

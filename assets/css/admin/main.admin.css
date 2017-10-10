@@ -1,0 +1,8 @@
+.card{
+  padding: 2%;
+}
+.breadcrumb{
+  background: transparent;
+  border-bottom: 1px dotted #ddd;
+  padding: 10px 0px;
+} 
